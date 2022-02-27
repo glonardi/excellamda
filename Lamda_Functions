@@ -1,0 +1,12 @@
+/*
+CAGR: Calcola il tasso medio annuale composto di crescita
+
+Parametri: 
+  Valore_Finale: Valore finale dell'investimento
+  Valore_Iniziale: Valore iniziale dell'investimento
+  Anni: numero anni in cui è stato attivo l'investimento
+  
+ */
+ 
+CAGR = LAMBDA(Valore_Finale, Valore_Iniziale, Anni,
+  (Valore_Finale/Valore_Iniziale)^(1/Anni)-1
